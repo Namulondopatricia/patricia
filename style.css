@@ -1,0 +1,65 @@
+body {
+	background-color: blueviolet;
+}
+p{
+font-family: times new roman;
+font-size: 25px;
+border: medium;
+}
+h2{
+	font-family: algerian;
+	background-color: darkred;
+	font-size: 25px
+	color:lightblue;
+	display: inline;
+	padding: 15px;
+	border: solid;
+}
+h3{
+	background-color: orange;
+	font-family: algerian;
+	font-size: 25px;
+	display: inline;
+	padding: 8px;
+	border: dotted;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: times new roman;
+}
+nav{
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo img{
+	width: 100px;
+	height: 70px;
+
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0 15px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-size: 20px;
+}
+.banner{
+	height: 600px;
+	background-image: url(images/logo.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.bannertext{
+	color: white;
+}
